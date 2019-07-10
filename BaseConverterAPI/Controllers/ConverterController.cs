@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Net.Http.Formatting;
 using System.Web.Http;
+using System.Web.Http.Results;
 
 namespace BaseConverterAPI.Controllers
 {
@@ -41,7 +43,7 @@ namespace BaseConverterAPI.Controllers
         }
 
         [HttpGet]
-        public string Converter(int basein, string input, int baseout)
+        public JsonResult<string> Converter(int basein, string input, int baseout)
         {
             if (!BaseValid(basein))
                 return null;
@@ -70,7 +72,7 @@ namespace BaseConverterAPI.Controllers
                 dec /= baseout;
             } while (dec != 0);
 
-            return output;
+            return Json(output);
         }
     }
 }
