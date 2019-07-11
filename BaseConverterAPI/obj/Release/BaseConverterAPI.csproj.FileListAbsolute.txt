@@ -18,3 +18,6 @@ C:\Users\Edeilton Oliveira\Visual Studio 2017\Projects\BaseConverterAPI\BaseConv
 C:\Users\Edeilton Oliveira\Visual Studio 2017\Projects\BaseConverterAPI\BaseConverterAPI\obj\Release\BaseConverterAPI.dll
 C:\Users\Edeilton Oliveira\Visual Studio 2017\Projects\BaseConverterAPI\BaseConverterAPI\obj\Release\BaseConverterAPI.pdb
 C:\Users\Edeilton Oliveira\Visual Studio 2017\Projects\BaseConverterAPI\BaseConverterAPI\obj\Release\BaseConverterAPI.csprojResolveAssemblyReference.cache
+C:\Users\Edeilton Oliveira\Visual Studio 2017\Projects\BaseConverterAPI\BaseConverterAPI\bin\System.Web.Cors.dll
+C:\Users\Edeilton Oliveira\Visual Studio 2017\Projects\BaseConverterAPI\BaseConverterAPI\bin\System.Web.Http.Cors.dll
+C:\Users\Edeilton Oliveira\Visual Studio 2017\Projects\BaseConverterAPI\BaseConverterAPI\bin\System.Web.Http.Cors.xml
